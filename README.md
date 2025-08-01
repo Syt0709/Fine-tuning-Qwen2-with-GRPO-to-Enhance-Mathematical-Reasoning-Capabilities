@@ -1,7 +1,9 @@
 # Fine-tuning-Qwen2-with-GRPO-to-Enhance-Mathematical-Reasoning-Capabilities
 ##简介
 数据集：https://huggingface.co/datasets/openai/gsm8k
+
 模型：https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct
+
 本项目旨在借助 trl（Hugging Face 的 transformers 相关强化学习库），复现 DeepSeek R1 的 GRPO 训练方法，并将其应用于 Qwen2.5-0.5B-Instruct 小尺寸模型，以提升其推理能力。
 ##简历写法
 项目背景：针对 Qwen2.5-0.5B 小模型在数学推理任务中逻辑推导薄弱、输出格式混乱的问题，探索低成本提升模型逻辑推导与格式输出能力的解决方案。
